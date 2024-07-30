@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="About Chess">
+        <meta name="keywords" content="chess, chess guide, jason wong">
+        <meta name="author" content="Jason Wong">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="website.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Chess Guide </title>
+    </head>
+<body>
+    <div class="wrapper">   <!-- used to define the width of the content-->
+        <div class="navbar"> <!-- navbar-->
+        <header>    <!-- contains the site name/logo and navaigation links-->
+            <h1>Chess <span class="name">Guide</span> </h1> <!-- website name-->
+                <nav>   <!-- navigation links to other pages on this website-->
+                    <ul>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="concepts.html">CONCEPTS</a></li>
+                        <li><a class= "active" href="about.html">ABOUT</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                    </ul>       
+                </nav>  <!-- / navigation-->
+        </header>   <!-- / header-->
+        </div> <!-- navbar-->
+
+        <div class="space"></div>
+    <div class="content-main">  <!-- the main section of content for the website-->
+        <br>
+            <div> <!-- image next to The board -->
+                <img src="Images/board.PNG" width="310" class="imageC1" alt="Image by ">
+            </div> <!-- / image -->
+        <div class="factsC1"> <!-- chess information on the board-->
+            <h3><span class="underline">The Board</span></h3>
+                <p>The board consists of eight rows and eight columns for a total of 64 squares of alternating colours. 
+                Each square has a unique alphabet from a to h and number from 1 to 8. 
+                Each player has eight pawns placed on the second nearest row to the player. 
+                The remaining pieces are placed on the row nearest to the player. 
+                With two rooks placed at each of the corners, the knights on the square next to the rook. 
+                With the bishops placed next to the knights. The queen is positioned on the same colour square as the queen. 
+                King is placed on the remaining square.
+                </p>
+        </div>  <!-- / information-->
+        
+        <div class="factsC2"> <!-- chess information with text and images on each piece-->
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections">     <!-- / each piece is has a section-->   
+                <h1 class= "subheading">King</h1>
+                    <img src="Images/kingpiece.png" width= "70" class= "design" alt="Image by OpenClipart-Vectors">  
+                    <img src="Images/king.png" width= "210" class= "piece" alt="Image by">
+                        <p>King can move exactly one square horizontally, vertically or diagonally.
+                        The king cannot move onto a square that is a threat to the king with an opponent piece. 
+                        A player loses when the king is  placed into checkmate. 
+                        </p>
+                </div>
+            </div>
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections">     <!-- / each piece is has a section-->
+                <h1 class= "subheading">Queen</h1>
+                    <img src="Images/queenpiece.png" width= "70" class= "design" alt="Image by OpenClipart-Vectors">  
+                    <img src="Images/queen.PNG" width= "210" class= "piece" alt="Image by">
+                        <p>Queen can move any number of squares horizontally, vertically or diagonally. 
+                        It cannot move through pieces of the same colour and captures a 
+                        piece of the opposite colour by moving onto its square.
+                        </p>
+                </div>
+            </div>  
+
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections">     <!-- / each piece is has a section-->
+                <h1 class= "subheading">Bishop</h1>
+                    <img src="Images/bishoppiece.png" width= "70" class= "design" alt="Image by OpenClipart-Vectors">
+                    <img src="Images/bishop.PNG" width= "210" class= "piece" alt="Image by">
+                        <p>Pawns can move forward one square after the first move of the pawn. 
+                        The first move of a pawn can move two squares forwards.
+                        A pawn cannot move backwards. Pawns can only capture pieces in front diagonally from it’s left or right. 
+                        </p>
+                </div>
+            </div>
+
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections">     <!-- / each piece is has a section-->
+                <h1 class= "subheading">Rook</h1>
+                    <img src="Images/rookpiece.png" width= "60" class= "design" alt="Image by OpenClipart-Vectors">  
+                    <img src="Images/rook.PNG" width= "210" class= "piece" alt="Image by">
+                        <p>Rook can move any number of squares vertically or horizontally. 
+                        It cannot move through pieces of the same colour and captures 
+                        a piece of the opposite colour by moving onto its square.
+                        </p>
+                </div>
+            </div>
+
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections">   <!-- / each piece is has a section-->
+                <h1 class= "subheading">Pawn</h1>
+                    <img src="Images/pawnpiece.png" width= "55" class= "design" alt="Image by OpenClipart-Vectors">  
+                    <img src="Images/pawn.PNG" width= "210" class= "piece" alt="Image by">
+                        <p>Bishops can move any number of squares diagonally. 
+                        It cannot move through pieces of the same colour and captures a piece 
+                        of the opposite colour by moving onto its square.
+                        </p>
+                </div>
+            </div>      
+            
+            <div class= "column">   <!-- / puts the content in the format-->
+                <div class= "sections" style = "font-size: 90%;">   <!-- / each piece is has a section, also decreases font size-->
+                <h1 class= "subheading">Knight</h1>
+                    <img src="Images/knightpiece.png" width= "70" class= "design" alt="Image by OpenClipart-Vectors">  
+                    <img src="Images/knight.PNG" width= "210" class= "piece" alt="Image by">
+                        <p> Knights can move two squares forwards, backwards, left or right, 
+                        then one square horizontally or vertically. Viewed as an L shape. 
+                        The knight is the only piece able to jump over or pass through other pieces. 
+                        It captures a piece of the opposite colour by moving onto its square.
+                        </p>
+                </div>
+            </div>      
+            
+            </div>  <!-- / information-->
+                <div> <!-- image next to checkmate-->
+                    <img src="Images/checkmate.jpg" width="410" class="imageC3" alt="Image by Pixabay">
+                </div> <!-- / image -->
+            
+                <div class="factsC3"> <!-- information-->
+                    <h3><span class="underline">Checkmate</span></h3>             
+                        <p> When a piece is moved it puts the opposing king in check. 
+                        The king must get out of check in the next turn. 
+                        The attacking piece may be taken by the king or another piece. 
+                        Another piece may be moved between the attacking piece and the king, but not for knights. 
+                        If the king is unable to move and is in check the king is in checkmate. 
+                        The game finishes and the player who’s king in checkmate loses.
+                        Stalement is a draw, it happens when one king is unable to move also not in check.
+                        </p>      
+                </div>  <!-- / facts-->
+            <button onclick="topFunction()" id="topbut" title="Go to top">Top</button>  <!-- top button-->
+        </div>  <!-- / content-main-->
+        <footer>    <!-- contains copyright, name and year-->
+            <p>&copy; 2021 Jason Wong </p>
+        </footer>   <!-- / footer-->
+    </div>  <!-- / wrapper-->
+</body>  
+</html>

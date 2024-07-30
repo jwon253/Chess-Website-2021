@@ -1,0 +1,539 @@
+/* Colours used in website 
+Dark Blue Shade #4b648a
+Light Blue Cyan #d0dff4
+Dark Orange Shade #261e1a
+Light Blue Shade #89A8D6
+White #ffffff
+*/
+
+/* ------------------STYLING FOR ALL PAGES------------------- */
+body {
+    font-family: 'roboto', sans-serif; /* font for body text */
+    color: #ffffff;   /* colour of body text */
+    margin: auto;   /* brower calulates margin */
+    max-width: 1080px;
+}
+
+header nav ul {
+    list-style-type: none; /* removes the bullet points */
+    margin: 0px;
+    margin-left: 560px; 
+    padding: 0px;
+    overflow: auto; /* controls content too big for area */
+    background-color: #4b648a; /* dark blue shade */
+}
+
+/* floats page links next to each other */
+header nav li {
+    float:right; /* element on right side */
+}
+
+/* section that contains both logo and page buttons */
+.navbar {
+    position: fixed;
+}
+
+header li a {
+    display: block; 
+    color: #ffffff; /* light blue cyan */
+    text-align: center; /* makes the text aligned centred */
+    padding: 20px 30px;
+    text-decoration: none; /* removes decoration */
+    width: 70px;
+    height: 19px;
+    font-size: 108%;
+}
+
+/* changes the current lin font weight to bold to show the page the user is on */
+.active {
+    font-weight: bold;
+    background-color: #d0dff4; /* light blue cyan */
+    color: #4b648a; /* dark blue shade */
+}
+
+/* Changes the link colour background appears on hover */
+header li a:hover:not(.active) {
+    background-color: #00e096; /* white */
+}
+
+header h1 {
+    text-align: left; /* element on left side */
+    float: left;
+    padding: 10px 10px 10px 45px; 
+    height: 39px;
+    margin: 0px;
+    background-color: #4b648a; /* dark blue shade */ 
+    width: 505px;   
+    color: #d0dff4; /* light blue cyan */
+    text-shadow: 3px 3px #261e1a; /* shadow behind text */
+} 
+
+/* part of the logo 'Guide' being white */ 
+h1 span.name {
+    color:#ffffff; /* White */
+}
+
+/* hero image */
+.hero-image {
+    background-image: url(Images/front.jpg); /* hero image */
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 580px;
+    width: 1080px; 
+    overflow: hidden; /* Hero image is set behind */
+}
+
+/* an underline or line under titles */
+.underline {    
+    border-bottom: 4px solid #00e096; /* Light Blue Shade */
+    padding-bottom: 3px;
+} 
+
+/* quote on the hero image */
+.quote {
+    padding-right: 380px;
+    padding-top: 50px;
+    text-align: center; /* makes the text aligned centred */
+    font-size: 110%;
+}
+
+/* quote creator - Marcel Duchamp */
+h5 {
+    font-size: 90%; /* reduce the font size */
+}
+
+/* sets the width of the website */
+.wrapper {
+    width: 1080px;
+    margin: auto;
+}
+
+/* recoloured texts for hyperlink */
+.links {
+    color: #00e096; /* light blue shade */
+    text-decoration: none; /* removes text decoration */
+}
+
+/* introduction text */
+.intro {
+    text-align: center;
+    background-color: #4b648a; /* dark blue shade */
+    padding: 5px 50px 5px;
+}
+
+.space {
+    padding-top: 50px;
+}
+
+/* main section for website content */
+.content-main {
+    background-color: #d0dff4; /* background colour light blue cyan */
+    line-height: 24px; /* sets the spacing between texts vertically */
+    padding-bottom: 5px;
+}
+
+.space {
+    padding-top: 50px;
+}
+
+/* the game text */
+.HomeA1 {
+    background-color: #4b648a; /* dark blue shade */
+    margin: 70px;
+    margin-top: 70px;
+    padding-top: 1px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 190px;
+    width: 410px;
+    font-size: 96%; /* reduces the font size */
+}
+
+/* strategy text */
+.HomeA2 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left:580px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 250px;
+    width: 380px;
+}
+
+/* chess club text */
+.HomeA3 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 250px;
+    width: 400px;
+}
+
+/* topview.jpg iamge */
+.imageA1 {
+    float: right;
+    margin-right: 70px;
+    margin-top: 70px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* game.jpg image */
+.imageA2 {
+    float: left;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade*/
+}
+
+/* angled.jpg image */
+.imageA3 {
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark dark blue shade*/
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* technique text */
+.techniques {
+    background-color: #4b648a; /* dark blue shade */
+    margin: 70px;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+/* one.jpg */
+.imageB1 {
+    float: right;
+    margin-right: 70px;
+    margin-top: 40px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* pin.png image */
+.imagepin {
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+    margin-left: 20px;
+    border-top: solid 8px #d0dff4; /* light blue cyan */
+    border-left: solid 8px #d0dff4; /* light blue cyan */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* pin text */    
+.conceptB1 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 260px;
+    width: 900px; 
+}   
+
+/* fork.png image */
+.imagefork {
+    float: right;
+    margin-left: 0px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    border-top: solid 8px #d0dff4; /* light blue cyan */
+    border-left: solid 8px #d0dff4; /* light blue cyan */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade*/
+}
+
+/* fork text */    
+.conceptB2 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-bottom: 70px;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 260px;
+    width: 900px; 
+}
+
+/* skewer.png image */
+.imageskewer {
+    float: right;
+    margin-left: 70px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    border-top: solid 8px #d0dff4; /* light blue cyan */
+    border-left: solid 8px #d0dff4; /* light blue cyan */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* skewer text */    
+.conceptB3 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-bottom: 70px;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 250px;
+    width: 900px; 
+}
+
+/* trading.png image */
+.imagetrading {
+    float: right;
+    margin-left: 70px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    border-top: solid 8px #d0dff4; /* light blue cyan */
+    border-left: solid 8px #d0dff4; /* light blue cyan */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade*/
+}
+
+/* trading text */    
+.conceptB4 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-bottom: 70px;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 305px;
+    width: 900px; 
+}
+
+/* content in column format */
+.column{
+    float: left;
+    margin: 15px;
+    width: 28%;
+    padding: 5px;
+}
+
+/* the title names for each piece */
+.subheading {
+    padding-top: 10px;
+    border-bottom: 4px solid #00e096    ; /* light blue cyan */
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 0px;
+    width: 85px;
+    text-align: center;
+}
+
+/* position for each piece */
+.design {
+    margin-top: -80px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+
+/* adds border to each board png image */
+.piece {
+    border-top: solid 8px #d0dff4; /* light blue cyan */
+    border-left: solid 8px #d0dff4; /* light blue cyan */
+    border-bottom: solid 8px #4b648a; /* dark blue shade */
+    border-right: solid 8px #4b648a; /* dark blue shade */  
+}
+
+/* the section for each piece */
+.sections{
+    background-color:#89A8D6; /* light blue shade */
+    padding-left: 30px;
+    font-size: 16px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+}
+
+/* the board text */
+.factsC1 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 450px;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 290px;
+    width: 500px;  
+}
+
+/* board.jpg image */
+.imageC1 {
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* section for each chess piece */
+.factsC2 {
+    background-color: #4b648a; /* dark blue shade */
+    margin: 0px;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 0px;
+    height: 1280px;
+    width: 1030px;
+}
+
+/* checkmate text */
+.factsC3 {
+    background-color: #4b648a; /* dark blue shade */
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 1px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 200px;
+    width: 400px;
+}
+
+/* checkmate.jpg image */
+.imageC3 {
+    float: right; 
+    margin-right: 70px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6;  /* light blue shade*/  
+}
+
+/* play.jpg image */
+.imageD1 {
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: solid 8px #4b648a; /* dark blue shade */
+    border-left: solid 8px #4b648a; /* dark blue shade */
+    border-bottom: solid 8px #89A8D6; /* light blue shade */
+    border-right: solid 8px #89A8D6; /* light blue shade */
+}
+
+/* Chess Club text */
+.factsD1 {
+    background-color: #4b648a; /* dark blue shade */
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 250px;
+    width: 400px;  
+}
+
+
+.introC {
+    text-align: center;
+}
+
+/* form */
+.iframe {
+    border-style: none; /* removes border of the form */
+}
+
+/* section at the bottom */
+footer {
+    background-color: #4a648a; /* dark blue shade */
+    width: 100%;
+    color: #ffffff; /* white */
+    text-align: center;
+    padding: 10px 0px;
+    border-top-style: solid; 
+    border-color: #4a648a; /* dark blue shade */
+}
+
+ footer nav ul {
+    list-style-type: none; /* removes the bullet points */
+     margin: 0px;
+     padding: 0px;
+     overflow: hidden; /* Controls content too big for area */
+     background-color: #4b648a; /* dark blue shade */
+     margin-left: 200px;
+}
+/* floats page links next to each other */
+footer nav li {
+    float:left; 
+    margin-left: 0px;
+}
+
+footer li a {
+    display: block; 
+    margin-left: 0px;
+    color: #ffffff  ; /* white */
+    text-align: center; /* makes the text aligned centred */
+    padding: 0px 30px;
+    text-decoration: none; /* removes the text decoration*/
+    width: 80px;
+    height: 25px;
+}
+
+/* styling for the 'top' button */
+#topbut {
+    position: fixed; /* makes the object to be station */
+    bottom: 60px; 
+    margin: 0.5%; /* the object is 0.5% away from the edge*/
+    z-index: 99; /* makes the object overlap covering the object behind */
+    font-size: 18px;
+    border: none;  /* removes the border */
+    outline: none; /* removes the outline */
+    background-color: #00e096; /* light blue shade */
+    color: #ffffff; /* white */
+    cursor: pointer; /* it changes the cursor to pointer when hovered */
+    padding: 20px;
+    border-radius: 5px; /* removes the edges of the square */
+  }
